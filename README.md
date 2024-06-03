@@ -40,10 +40,22 @@ npx create-next-app@latest .
 - Click on "Register app".
 
 <p align="left">
-  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/fd7284ee-f562-4b13-acb3-0410a0074142" alt="Captura de tela 2024-06-03 113920" width="200"/>
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/9d8959ce-1ccd-448d-94b6-ce34ad648ffb" alt="Captura de tela 2024-06-03 113920" width="200"/>
 </p>
 
 ### 3. Add firebase to your web app
+
+- Copy the code below from Firebase:
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/623bcd8c-08a3-4c82-88ac-a6b596ef2a15" alt="Captura de tela 2024-06-03 113920" width="200"/>
+</p>
+
+- Manually create a firebase.js file inside the app folder and paste the code into your project:
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/87ec4eed-b115-4067-a4b3-2a20c9c5a1be" width="500"/>
+</p>
 
 - On the project root, execute the following command in the terminal:
 
@@ -54,6 +66,10 @@ npm install firebase
 ```bash
 npm install -g firebase-tools
 ```
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/8cd400c7-78e1-4b31-9411-313298474ef7" width="500"/>
+</p>
 
 ```bash
 firebase login
@@ -84,10 +100,33 @@ Answer to questions in terminal by **Y** or **N**
 
 - You are initializing within an existing Firebase project directory? - **Yes** 
 - Detected an existing Next.js codebase in the current directory, should we use this? - **Yes** 
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/1bdd7df1-101c-4692-9eb8-3c867fa7f37e" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/c6d94048-a06d-48e4-bf69-f8482b5f1bea" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
+
 - In which region would you like to host server-side content, if applicable? - Select the region where your application will be hosted 
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/0fcfe6f8-4e25-430a-b91a-cfbf5867dea6" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
+
 - Set up automatic builds and deploys with GitHub? - **No**
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/cfb2ffc1-c108-4477-8e49-f205acb1231e" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
+
 - For **Yes** option for automatic deploys with GitHub: [https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free](https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free-be5e5ff58796)
 - You should get a message “Firebase initialization complete!”
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/ad330380-cd0a-40cd-9e69-4594dd22099b" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
 
 - A firebase.json file will be created:
 
