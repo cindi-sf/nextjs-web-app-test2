@@ -85,11 +85,26 @@ Answer to questions in terminal by **Y** or **N**
 - You are initializing within an existing Firebase project directory? - **Yes** 
 - Detected an existing Next.js codebase in the current directory, should we use this? - **Yes** 
 - In which region would you like to host server-side content, if applicable? - Select the region where your application will be hosted 
-- Set up automatic builds and deploys with GitHub? - **No** (**Yes** is not covered in this tutorial)
-- You should get a message “Firebase initialization complete!” 
+- Set up automatic builds and deploys with GitHub? - **No**
+- For **Yes** option for automatic deploys with GitHub: [https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free](https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free-be5e5ff58796)
+- You should get a message “Firebase initialization complete!”
+
+- A firebase.json file will be created:
+
+<p align="left">
+  <img src="https://github.com/cindi-sf/nextjs-web-app-test2/assets/171067216/5f8d1506-8263-4bd1-a3ca-e6b869ef1ea5" alt="Captura de tela 2024-06-03 113920" width="500"/>
+</p>
+
 
 ```bash
 firebase deploy
 ```
 
 Here is the URL generated for the project hosted by Firebase: [https://nextjs-web-app-test2.web.app](https://nextjs-web-app-test2.web.app)
+
+### Other useful links:
+
+[https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free](https://adelpro.medium.com/how-to-deploy-your-website-to-firebase-hosting-for-free-be5e5ff58796)
+
+[https://levelup.gitconnected.com/deploying-your-website-to-firebase](https://levelup.gitconnected.com/deploying-your-website-to-firebase-ddfc97d0bdb7)
+
